@@ -10,7 +10,7 @@
     The data preprocessing steps include loading the movies and ratings datasets using pandas, and performing necessary transformations to prepare the data for the recommendation systems. The code converts the ratings dataset into a pivot table, where rows represent users, columns represent movies, and values represent ratings. Any missing values are handled appropriately, such as filling them with zeros. This preprocessing ensures that the data is in a suitable format for further processing.
 
 # Methodology
-    The recommendation systems employ different methodologies to generate movie recommendations:
+  The recommendation systems employ different methodologies to generate movie recommendations:
     
     1. Collaborative Filtering:
         - Collaborative Filtering focuses on identifying similar users based on their movie preferences.
